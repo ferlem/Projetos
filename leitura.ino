@@ -1,13 +1,13 @@
 //Obter a biblioteca DS3231 em: http://www.rinkydinkelectronics.com/library.php?id=73
 ////////////////////////  Inicio do RTC  ////////////////////////////////////// 
-	#include <DS3231.h>
+	//#include <DS3231.h>
 
-	DS3231  rtc(SDA, SCL);
+	//DS3231  rtc(SDA, SCL);
 ///////////////////////////////////////////////////////////////////////////////
 
 ////////////////////////  Inicio dos Sensores de corrente ////////////////////////
-	const uint8_t SENSOR_PIN = A3;
-	const uint8_t SENS = 610;   // sensor sensitivity from datasheet in mV/A. 5A sensor=185, 20A=100, 30A=66
+	//const uint8_t SENSOR_PIN = A3;
+	//const uint8_t SENS = 610;   // sensor sensitivity from datasheet in mV/A. 5A sensor=185, 20A=100, 30A=66
 	int16_t sensorZeroAdj = 0;  // calculate in setup()
 	#define SENSE_DC  0   // sense DC or AC - changes how the current is calculated
 
